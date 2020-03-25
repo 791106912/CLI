@@ -19,7 +19,7 @@ module.exports = {
         },
         {
             value: 'lipstick',
-            name: '💄   lipstick: 仅仅css相关 ' 
+            name: '💄   lipstick: 仅仅css相关 '
         },
         {
             value: 'style',
@@ -47,7 +47,7 @@ module.exports = {
         }
     ],
 
-    scopes: ['总览', '流量', '事件', '追踪', '发现', '观察', '配置', '资产','全局搜索', '系统配置'], // 指定特定的业务系统，也可以为，格式是Array Of String
+    scopes: ['系统配置'], // 指定特定的业务系统，也可以为，格式是Array Of String
 
     allowCustomScopes: true, // 是否允许用户自定义scope
     allowBreakingChanges: ["feature", "fix"], //要不要放在change log中
@@ -73,7 +73,7 @@ module.exports = {
         footer: '关联关闭的issue，例如：#31, #34(可选):\n',
         confirmCommit: '搞定了，回车提交吧少年！',
     },
-    
+
     upperCaseSubject: true, // Capitalizes first subject letter
     // breaklineChar: '|', //  body、 footer换行
     // footerPrefix : 'ISSUES CLOSED:'prefix for the footer .empty string to remove prefix.
