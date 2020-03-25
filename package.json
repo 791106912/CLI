@@ -1,0 +1,64 @@
+{
+    "name": "cli-basic",
+    "version": "0.1.0",
+    "private": true,
+    "dependencies": {
+        "@testing-library/jest-dom": "^4.2.4",
+        "@testing-library/react": "^9.3.2",
+        "@testing-library/user-event": "^7.1.2",
+        "antd": "^4.0.3",
+        "react": "^16.13.0",
+        "react-dom": "^16.13.0",
+        "react-scripts": "3.4.0"
+    },
+    "scripts": {
+        "start": "react-app-rewired start",
+        "build": "react-app-rewired build",
+        "test": "react-app-rewired test",
+        "eject": "react-scripts eject",
+        "release": "standard-version",
+        "cm": "git-cz",
+        "lint": "eslint .",
+        "lint:fix": "eslint --fix .",
+        "format": "prettier --write \"**/*.+(js|jsx|json|css|md)\""
+    },
+    "eslintConfig": {
+        "extends": "react-app"
+    },
+    "browserslist": {
+        "production": [
+            ">0.2%",
+            "not dead",
+            "not op_mini all"
+        ],
+        "development": [
+            "last 1 chrome version",
+            "last 1 firefox version",
+            "last 1 safari version"
+        ]
+    },
+    "devDependencies": {
+        "babel-plugin-import": "^1.13.0",
+        "commitizen": "^4.0.3",
+        "customize-cra": "^0.9.1",
+        "cz-conventional-changelog": "^3.1.0",
+        "cz-customizable": "^6.2.0",
+        "eslint-config-airbnb": "^18.1.0",
+        "eslint-config-prettier": "^6.10.1",
+        "eslint-plugin-import": "^2.20.1",
+        "eslint-plugin-prettier": "^3.1.2",
+        "eslint-plugin-react": "^7.19.0",
+        "husky": "^4.2.3",
+        "less": "^3.11.1",
+        "less-loader": "^5.0.0",
+        "lint-staged": "^10.0.9",
+        "prettier": "^2.0.2",
+        "react-app-rewired": "^2.1.5",
+        "standard-version": "^7.1.0"
+    },
+    "config": {
+        "commitizen": {
+            "path": "node_modules/cz-customizable"
+        }
+    }
+}
